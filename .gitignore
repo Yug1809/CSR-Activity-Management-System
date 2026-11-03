@@ -1,0 +1,32 @@
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java compiled files
+*.class
+out/
+
+# Build directories
+target/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.properties.local
+
+# Logs
+*.log
+logs/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
